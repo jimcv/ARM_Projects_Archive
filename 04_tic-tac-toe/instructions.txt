@@ -1,0 +1,15 @@
+Setup:
+    This project uses the "VGA pixel buffer" and the "PS/2 keyboard" of the simulator
+    They can be found inside panels on the right column
+    The panels can be dragged around
+    The pixel buffer can be resized to see better (hover the little arrow on top left corner)
+    The simulator offers two PS/2 devices, the one used in this project is at address "ff200100"
+
+How to play:
+    Click on the box next to "Type here" in the PS/2 keyboard at address "ff200100"
+    The controls are the num-keys of the keyboard (row above the letters, NOT the numpad)
+    
+    - Type "0" to start/restart the game
+    - Type "1" to "9" to place a mark in one of the 9 squares, numbered from left to right, top to bottom
+    - The game stops when a player wins, or when the board results in a draw
+    
